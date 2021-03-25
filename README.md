@@ -6,3 +6,6 @@ A simple ruby tool for finding the hidden files on a website
 - cd ruby-dirbuster
 - sudo chmod +x *
 - ruby dirbuster.rb
+
+# Tool Is Developed By:
+- krishpranav | https://www.github.com/krishpranav
