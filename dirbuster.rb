@@ -37,3 +37,11 @@ def browse(website, startcount, times)
     count = count + 1
   end
 end
+
+print "Website: "
+website = gets.chomp
+
+#threads
+t1 = Thread.new{browse(website + "/", 0, 4654)}
+t2 = Thread.new{browse(website + "/", 4654, 9308)}
+
