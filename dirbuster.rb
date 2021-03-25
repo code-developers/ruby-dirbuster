@@ -47,3 +47,10 @@ t2 = Thread.new{browse(website + "/", 4654, 9308)}
 t3 = Thread.new{browse(website + "/", 9308, 13962)}
 t4 = Thread.new{browse(website + "/", 13962, 18616)}
 t5 = Thread.new{browse(website + "/", 18616, 23272)}
+
+#start threads at the same time
+t1.join
+t2.join
+t3.join
+t4.join
+t5.join
